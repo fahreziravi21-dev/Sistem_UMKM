@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "installCommand": "cd umkm-purwodadi && composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist",
+
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.4"

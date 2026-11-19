@@ -1,5 +1,5 @@
 # Ignored directories and files
-/umkm-purwodadi/vendor/
+# /umkm-purwodadi/vendor/ — included for Vercel deployment (no composer install support)
 /umkm-purwodadi/node_modules/
 /umkm-purwodadi/.env
 /umkm-purwodadi/.env.backup
