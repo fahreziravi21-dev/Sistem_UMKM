@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "framework": null,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.4"
+    }
+  },
+  "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "/umkm-purwodadi/public/build/$1"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/umkm-purwodadi/public/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/umkm-purwodadi/public/js/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/umkm-purwodadi/public/images/$1"
+    },
+    {
+      "src": "/uploads/(.*)",
+      "dest": "/umkm-purwodadi/public/uploads/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/umkm-purwodadi/public/favicon.ico"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/umkm-purwodadi/public/robots.txt"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}

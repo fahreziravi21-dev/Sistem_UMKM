@@ -1,0 +1,14 @@
+# Ignored directories and files
+/umkm-purwodadi/vendor/
+/umkm-purwodadi/node_modules/
+/umkm-purwodadi/.env
+/umkm-purwodadi/.env.backup
+/umkm-purwodadi/storage/*.key
+/vendor/
+/node_modules/
+.env
+.env.backup
+*.log
+.phpunit.result.cache
+.vscode/
+.idea/
