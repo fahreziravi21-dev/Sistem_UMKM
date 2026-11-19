@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Force HTTPS on Vercel (behind proxy)
+        if (env('VERCEL') || env('APP_ENV') === 'production') {
+            \URL::forceScheme('https');
+        }
     }
 }
